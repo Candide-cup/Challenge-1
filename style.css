@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 225, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.free{
+    background-color: #fff;
+    width: 250px;
+    height: 450px;
+    color: black;
+    justify-content: center;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.prices{
+    font-size: 2rem; 
+}
+button{
+    color: white;
+    background-color: rgb(39, 39, 54);
+    padding: 15px 35px 15px 35px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px;
+}
+.pro{
+    background-color: rgb(27, 27, 36);
+    width: 250px;
+    height: 450px;
+    color: white;
+    justify-content: center;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.Carte{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    height: 100%;
+    padding: 30px;
+}
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.free h1{
+    padding-left: 35px;
+}
+.free h3{
+    padding-left: 35px;
+}
+.free p{
+    padding-left: 35px;
+}
+.pro h1{
+    padding-left: 35px;
+}
+.pro h3{
+    padding-left: 35px;
+}
+.pro p{
+    padding-left: 35px;
+}
+ul{
+    padding-top: 30px;
+}
+.free button{
+    margin-top: 40%;
+}
+.pro button{
+    margin-top: 14%;
+    color: black;
+    background-color: #fff;
+}
